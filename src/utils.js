@@ -1,10 +1,5 @@
 import hash from 'hash.js';
 
-/**
- * Generates a random color based on an input string.
- * @param {string} inputString - The input string used to generate the color.
- * @returns {string} - A string representing the RGB color.
- */
 
 export function getRandomColor(inputString) {
   // Calculate a hash value from the input string using SHA-1 algorithm
