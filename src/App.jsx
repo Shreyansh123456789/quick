@@ -11,6 +11,15 @@ function App() {
   const [groupBy, setGroupBy] = useState(
     localStorage.getItem("groupBy") || "status"
   );
+    const [groupBy, setGroupBy] = useState(
+    localStorage.getItem("groupBy") || "status"
+  );
+    const [groupBy, setGroupBy] = useState(
+    localStorage.getItem("groupBy") || "status"
+  );
+    const [groupBy, setGroupBy] = useState(
+    localStorage.getItem("groupBy") || "status"
+  );
 
   const [sortBy, setSortBy] = useState(
     localStorage.getItem("sortBy") || "priority"
